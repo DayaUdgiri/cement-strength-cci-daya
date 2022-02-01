@@ -10,7 +10,7 @@ class Preprocessor:
     """
         This class shall  be used to clean and transform the data before training.
 
-        Written By: iNeuron Intelligence
+        
         Version: 1.0
         Revisions: None
 
@@ -27,7 +27,7 @@ class Preprocessor:
                 Output: A pandas DataFrame after removing the specified columns.
                 On Failure: Raise Exception
 
-                Written By: iNeuron Intelligence
+                
                 Version: 1.0
                 Revisions: None
 
@@ -53,7 +53,7 @@ class Preprocessor:
                         Output: Returns two separate Dataframes, one containing features and the other containing Labels .
                         On Failure: Raise Exception
 
-                        Written By: iNeuron Intelligence
+                        
                         Version: 1.0
                         Revisions: None
 
@@ -75,7 +75,7 @@ class Preprocessor:
                         Method Name: is_null_present
                         Description: This method drops the unwanted columns as discussed in EDA section.
 
-                        Written By: iNeuron Intelligence
+                        
                         Version: 1.0
                         Revisions: None
 
@@ -90,7 +90,7 @@ class Preprocessor:
                                Method Name: is_null_present
                                Description: This method replaces invalid values i.e. '?' with null, as discussed in EDA.
 
-                               Written By: iNeuron Intelligence
+                               
                                Version: 1.0
                                Revisions: None
 
@@ -110,7 +110,7 @@ class Preprocessor:
                                         returns the list of columns for which null values are present.
                                 On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
+                                
                                 Version: 1.0
                                 Revisions: None
 
@@ -144,7 +144,7 @@ class Preprocessor:
                                         Output: A Dataframe which has all the categorical values encoded.
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
+                                        
                                         Version: 1.0
                                         Revisions: None
                      """
@@ -163,7 +163,7 @@ class Preprocessor:
                                                Output: A Dataframe which has all the categorical values encoded.
                                                On Failure: Raise Exception
 
-                                               Written By: iNeuron Intelligence
+                                               
                                                Version: 1.0
                                                Revisions: None
                             """
@@ -180,7 +180,7 @@ class Preprocessor:
     #                                                   Output: A Dataframe which is balanced now.
     #                                                   On Failure: Raise Exception
     #
-    #                                                   Written By: iNeuron Intelligence
+    #                                                   
     #                                                   Version: 1.0
     #                                                   Revisions: None
     #                                """
@@ -215,7 +215,7 @@ class Preprocessor:
                                         Output: A Dataframe which has all the missing values imputed.
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
+                                        
                                         Version: 1.0
                                         Revisions: None
                      """
@@ -240,7 +240,7 @@ class Preprocessor:
                                                 Output: List of the columns with standard deviation of zero
                                                 On Failure: Raise Exception
 
-                                                Written By: iNeuron Intelligence
+                                                
                                                 Version: 1.0
                                                 Revisions: None
                              """
